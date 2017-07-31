@@ -1,0 +1,74 @@
+//CSS variables
+:root {
+  --dark:  #8a93a7;
+  --light: #d9d9d9;
+
+}
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	position: fixed;
+	padding: 1rem;
+	margin: 0;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.board {
+	display: flex;
+	background: url(../img/cork.jpg);
+	border: 5px solid var(--dark);
+	height: 100%;
+	overflow: auto;
+	form {
+      display: flex;
+      flex-direction: column;
+      position: fixed;
+      bottom: 1.3rem;
+      right: 1.3rem;
+      background: var(--light);
+      padding: 0.4em;
+      input {
+      	&+* {
+      		margin-top: 0.2em;
+      	}
+      }
+    }
+}
+
+mark {
+	margin: auto;
+	padding: 0.4em;
+}
+
+//Dragula
+.gu-transit {
+	transition: opacity 0.4s ease-in-out;
+}
+.gu-mirror {
+  div {
+	outline: 4px solid rgba(0, 0, 0, 0.25);
+	cursor: grabbing;
+  	cursor: -moz-grabbing;
+  }
+}
+my-card {
+	div {
+    text-align: center;
+    background: white;
+    min-height: 160px;
+    min-width: 160px;
+    margin: 0.4em;
+    padding: 0.2em;
+    cursor: move;
+	cursor: grab;
+    }
+    h2 {
+    margin: 0.2em 0;
+    }
+}

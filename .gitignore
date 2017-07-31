@@ -1,0 +1,10 @@
+node_modules/
+img/
+*config
+app/*js
+app/*map
+app/interfaces/*js
+app/interfaces/*map
+app/services/*map
+app/services/*js
+css/*.css

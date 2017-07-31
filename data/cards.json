@@ -1,0 +1,26 @@
+[
+  {
+    "title": "Вася",
+    "description": "хороший",
+    "type": 0,
+    "position": 0
+  },
+  {
+    "title": "Петя",
+    "description": "плохой",
+    "type": 0,
+    "position": 0
+  },
+  {
+    "title": "Коля",
+    "description": "сильный",
+    "type": 0,
+    "position": 0
+  },
+  {
+    "title": "Саша",
+    "description": "злой",
+    "type": 0,
+    "position": 0
+  }
+]
